@@ -1,0 +1,81 @@
+/* Container for selection section */
+.selection-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+/* Titles for each section */
+.selection-title {
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+  
+/* Grid layout for genre and instrument boxes */
+.selection-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 3 columns, 2 rows */
+    gap: 15px;
+    margin-top: 15px;
+}
+  
+/* Styling for each box */
+.selection-box {
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+  
+/* Selected state for boxes */
+.selection-box.selected {
+    background-color: #6a1b9a; /* Highlight color */
+    color: #fff;
+    border-color: #6a1b9a;
+}
+
+/* Hovered over box styling */
+.selection-box:hover {
+    background-color: #333;
+}
+
+/* Continue button container */
+.continue-button-container {
+    margin-top: 40px;
+    text-align: center;
+}
+  
+/* Styling for the Continue button */
+.continue-button {
+    width: auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #4a0c6b;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+/* Disabled state for the button */
+.continue-button.disabled {
+    background-color: #cccccc69;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+  
+/* Hover effect for active button */
+.continue-button:hover:not(.disabled) {
+    background-color: #29012D;
+}

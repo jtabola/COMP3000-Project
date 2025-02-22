@@ -1,0 +1,58 @@
+.app-wrapper {
+  background-color: #150A1D !important;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  /* Ensure the background image path is correct */
+  background-image: url("assets/wave-final-back.png"); /* Adjust this path */
+  background-position: bottom; /* Starting position at the left */
+  background-repeat: repeat-x; /* Allow horizontal repetition */
+  animation: moveWaves 120s linear infinite;
+}
+
+/* Keyframes for wave animation */
+@keyframes moveWaves {
+  0% {
+    background-position: 0% bottom; /* Starting position at the left */
+  }
+  50% {
+    background-position: 100% bottom; /* End position at the right */
+  }
+  100% {
+    background-position: 0% bottom; /* End position at the right */
+  }
+}
+
+.container {
+  flex-grow: 1;
+}
+
+.custom-navbar{
+  background-color:#110D15;
+}
+
+.custom-navbar .nav-link {
+  color: #FFFFFF !important;
+  font-size: 22px;
+}
+
+.custom-footer{
+  background-color:#110D15;
+}
+
+.custom-footer a {
+  color: #FFFFFF !important;
+}
+
+.custom-footer .text-muted {
+  color: #FFFFFF !important;
+}
+
+.navbar {
+  height: 100px;
+}
+
+.navbar-brand img {
+  margin-left: 40%;
+}

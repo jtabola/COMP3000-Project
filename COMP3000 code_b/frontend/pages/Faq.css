@@ -1,8 +1,0 @@
-.policy-container{
-    padding: 0 20px; /* Add some padding on the left and right */
-    background-color: #251C2E; /* Background color */
-    flex-wrap: wrap; /* Allow wrapping for smaller screens */
-    max-width: auto;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}

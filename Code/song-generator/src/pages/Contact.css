@@ -1,0 +1,86 @@
+/* Main Title */
+.main-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Container for left and right sections */
+.contact-container {
+    display: flex; /* Enables Flexbox */
+    align-items: flex-start; /* Align items to the top */
+    justify-content: space-between; /* Ensures equal spacing between the two sections */
+    padding: 0 20px; /* Add some padding on the left and right */
+    gap: 20px; /* Space between left and right sections */
+    background-color: #251C2E; /* Background color */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+/* Left Section (Text) */
+.contact-info {
+    flex: 1; /* Takes equal space with the form */
+    max-width: 400px;
+    color: #ddd;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+/* Right Section (Form) */
+.contact-form {
+    flex: 1; /* Takes equal space with the left section */
+    max-width: 50%; /* Limits the width to 50% of the container */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form elements */
+    justify-content: flex-start; /* Ensure form starts from the top */
+    margin-left: auto; /* Push this section to the right */
+    padding: 10px;
+}
+
+/* Form Inputs and Labels */
+.contact-form .form-label {
+    color: #ffffff;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.contact-form .form-control {
+    width: 400px; /* Ensure input fields take up full width of their container */
+    max-width: 100%; /* Prevent the form fields from becoming too wide */
+    padding: 12px; /* Increase the padding for longer input fields */
+    margin-bottom: 20px; /* Space between inputs */
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Button Styling */
+.contact-form button {
+    width: 100px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #4a0c6b;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.contact-form button:hover {
+    background-color: #29012D;
+}
+
+.contact-container h2{
+    padding-bottom: 20px;
+}

@@ -1,0 +1,64 @@
+/* Generated Song Container Styling */
+.generated-song-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #ffffff;
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Instrumental Placeholder Styling */
+.instrumental-placeholder {
+    display: flex;
+    align-items: center; /* Center vertically */
+    gap: 15px;
+    background-color: #2b2135;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+/* Instrumental Title Styling */
+.instrumental-title {
+    font-size: 1.5rem;
+    color: #ffffff;
+    flex-shrink: 0; /* Prevent title from shrinking */
+    max-width: 250px;
+    width: 250px;
+    text-align: left;
+}
+
+/* Audio Length Styling 
+
+/* Playback Controls */
+.playback-controls {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    align-items: center;
+    
+}
+
+/* Audio Player*/
+.audio-player{
+    margin-left: auto;
+    max-width: 350px;
+    width: 350px;
+}
+
+/* Lyrics Placeholder Styling */
+.lyrics-placeholder {
+    background-color: #2b2135;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+}

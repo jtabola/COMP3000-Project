@@ -45,7 +45,7 @@ The app leverages three specialised models:
 
 ---
 
-##  Setup Instructions (NEED CHANGE)
+##  Setup Instructions
 
 1. **Clone the repository:**
 

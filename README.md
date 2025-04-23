@@ -50,15 +50,16 @@ The app leverages three specialised models:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone git@github.com:jtabola/COMP3000-Project.git
    
 2. **Set up the backend:**
 
    ```bash
    cd song-generator-backend
+   python -m venv venv
+   venv\Scripts\activate
    pip install -r requirements.txt
-   python app.py
+   flask run
    
 1. **Set up the frontend:**
 
